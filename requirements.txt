@@ -1,0 +1,7 @@
+# 基本依赖
+tqdm>=4.64.0
+numpy>=1.20.0
+
+# 完整依赖 (用于 Whisper 转录功能)
+torch>=1.13.1
+openai-whisper>=20230314

@@ -28,6 +28,9 @@ setup(
             "torch>=1.13.1",
             "openai-whisper>=20230314",
         ],
+        "test": [
+            "pytest>=7.0.0",
+        ],
     },
     entry_points={
         "console_scripts": [
